@@ -1,9 +1,12 @@
 # encoding: utf-8
 require "rubygems"
+require "testando"
 require 'active_support/core_ext/module/attribute_accessors'
 require 'active_support/deprecation'
+sdsdsdds ds
 
 module MoIP
+sdsdsdds ds
   autoload :DirectPayment, 'moip/direct_payment'
   autoload :Client,        'moip/client'
 

@@ -2,7 +2,7 @@
 require 'rubygems'
 require 'rake'
 
-require 'rspec/core/rake_task'
+# require 'rspec/core/rake_task'
 
 begin
   require 'jeweler'
@@ -14,9 +14,9 @@ begin
     gem.homepage = "http://github.com/guinascimento/moip"
     gem.authors = ["Guilherme Nascimento"]
     gem.add_development_dependency "rspec", "~> 2.1.0"
-    gem.add_dependency "nokogiri", "~> 1.4.3"
-    gem.add_dependency "httparty", "~> 0.8.1"
-    gem.add_dependency "activesupport", '>= 2.3.2'
+    gem.add_dependency "nokogiri", "~> 1.5.2"
+    gem.add_dependency "httparty", "~> 0.8.3"
+    gem.add_dependency "activesupport", '>= 3.2.3'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
@@ -24,7 +24,7 @@ rescue LoadError
 end
 
 task :default => :spec
-RSpec::Core::RakeTask.new
+# RSpec::Core::RakeTask.new
 
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
