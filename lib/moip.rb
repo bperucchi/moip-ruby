@@ -6,6 +6,7 @@ require 'active_support/deprecation'
 module MoIP
 
   autoload :DirectPayment, 'moip/direct_payment'
+  autoload :SinglePayment, 'moip/single_payment'
   autoload :Client,        'moip/client'
 
   # URI para acessar o serviço
