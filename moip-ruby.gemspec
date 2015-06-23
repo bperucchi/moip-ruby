@@ -6,11 +6,11 @@
 Gem::Specification.new do |s|
   s.name        = "moip-ruby"
   s.version     = "0.1.2"
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ImentoreCms."
-  s.description = "TODO: Description of ImentoreCms."
+  s.authors     = ["Breno Perucchi"]
+  s.email       = ["bperucchi@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "Summary of ImentoreUser."
+  s.description = "Description of ImentoreUser."
 
   s.files = Dir["{lib}/**/*"] + ["Rakefile", "README.markdown"]
 
