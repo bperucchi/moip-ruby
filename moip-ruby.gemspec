@@ -5,7 +5,7 @@
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "moip-ruby"
-  s.version     = "0.1.2"
+  s.version     = "0.1.3"
   s.authors     = ["Breno Perucchi"]
   s.email       = ["bperucchi@gmail.com"]
   s.homepage    = ""
