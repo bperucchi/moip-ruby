@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{lib}/**/*"] + ["Rakefile", "README.markdown"]
 
-  s.add_dependency(%q<rspec>, ["~> 2.1.0"])
-  s.add_dependency(%q<nokogiri>, ["~> 1.5.2"])
-  s.add_dependency(%q<httparty>, ["~> 0.8.3"])
-  s.add_dependency(%q<activesupport>, [">= 3.2.3"])
+  s.add_dependency(%q<rspec>)
+  s.add_dependency(%q<nokogiri>)
+  s.add_dependency(%q<httparty>)
+  s.add_dependency(%q<activesupport>)
 end
